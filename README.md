@@ -51,7 +51,7 @@ aşağıda değiştirmeniz gereken yerleri yazıyorum.
 echo "export NIB_NODENAME=$NIB_NODENAME"  >> $HOME/.bash_profile
 echo "export NIB_WALLET=$NIB_WALLET" >> $HOME/.bash_profile
 echo "export NIB_PORT=11" >> $HOME/.bash_profile
-echo "export NIB_CHAIN_ID=testnet-1" >> $HOME/.bash_profile
+echo "export NIB_CHAIN_ID=nibiru-itn-1" >> $HOME/.bash_profile
 source $HOME/.bash_profile
 ```
 
@@ -61,7 +61,7 @@ Node ve Cüzdan adımızın `Mehmet` olduğunu varsayalım. Kod aşağıdaki şe
 echo "export NIB_NODENAME=Mehmet"  >> $HOME/.bash_profile
 echo "export NIB_WALLET=Mehmet" >> $HOME/.bash_profile
 echo "export NIB_PORT=18" >> $HOME/.bash_profile
-echo "export NIB_CHAIN_ID=Testnet3" >> $HOME/.bash_profile
+echo "export NIB_CHAIN_ID=nibiru-itn-1" >> $HOME/.bash_profile
 source $HOME/.bash_profile
 ```
 
