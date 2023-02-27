@@ -214,7 +214,7 @@ nibid status 2>&1 | jq .SyncInfo
    - `security-contact`  E-posta adresiniz.
  ```shell 
 nibid tx staking create-validator \
---amount=9960000unibi \
+--amount=10000000unibi \
 --pubkey=$(nibid tendermint show-validator) \
 --moniker=$NIB_NODENAME \
 --chain-id=$NIB_CHAIN_ID \
