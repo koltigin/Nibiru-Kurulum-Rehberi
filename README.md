@@ -150,7 +150,7 @@ EOF
 ## Snapshot Yükleme
 ```shell
 nibid tendermint unsafe-reset-all --home $HOME/.nibid --keep-addr-book
-curl https://snapshots2-testnet.nodejumper.io/nibiru-testnet/nibiru-itn-1_2023-02-27.tar.lz4 | lz4 -dc - | tar -xf - -C $HOME/.nibid
+curl https://snapshots2-testnet.nodejumper.io/nibiru-testnet/nibiru-itn-1_2023-02-28.tar.lz4 | lz4 -dc - | tar -xf - -C $HOME/.nibid
 ```
 
 ## Servisi Başlatma
