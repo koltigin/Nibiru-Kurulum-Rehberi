@@ -65,7 +65,7 @@ echo "export NIB_CHAIN_ID=nibiru-itn-1" >> $HOME/.bash_profile
 source $HOME/.bash_profile
 ```
 
-## Humans'ın Kurulması
+## Nibiru'un Kurulması
 
 ```shell
 git clone https://github.com/NibiruChain/nibiru
