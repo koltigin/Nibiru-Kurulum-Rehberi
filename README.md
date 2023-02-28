@@ -337,14 +337,16 @@ nibid tx gov vote 1 yes --from $NIB_WALLET --chain-id=$NIB_CHAIN_ID
 ### Validatore Stake Etme / Delegate Etme
 
 ```
-nibid tx staking delegate $VALOPER_ADDRESS 100000000uheart --from=$NIB_WALLET --chain-id=$NIB_CHAIN_ID --gas=auto --fees 5000uheart
+nibid tx staking delegate $VALOPER_ADDRESS 100000000unibi --from=$NIB_WALLET --chain-id=$NIB_CHAIN_ID --gas-prices=0.1unibi --gas-adjustment=1.5 --gas=auto 
 ```
+
+
 
 ### Mevcut Validatorden Diğer Validatore Stake Etme / Redelegate Etme
 <srcValidatorAddress>: Mevcut Stake edilen validatorün adresi
 <destValidatorAddress>: Yeni stake edilecek validatorün adresi 
 ```
-nibid tx staking redelegate <srcValidatorAddress> <destValidatorAddress> 100000000uheart --from=$NIB_WALLET --chain-id=$NIB_CHAIN_ID --gas=auto
+nibid tx staking redelegate <srcValidatorAddress> <destValidatorAddress> 100000000unibi --from=$NIB_WALLET --chain-id=$NIB_CHAIN_ID --gas-prices=0.1unibi --gas-adjustment=1.5 --gas=auto
 ```
 
 ### Ödülleri Çekme
