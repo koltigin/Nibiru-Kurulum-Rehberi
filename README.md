@@ -24,7 +24,7 @@ apt update && apt upgrade -y
 
 ## Gerekli Kütüphanelerin Kurulması
 ```shell
-apt install make clang pkg-config libssl-dev libclang-dev build-essential git curl ntp jq llvm tmux htop screen gcc -y < "/dev/null"
+apt install make clang pkg-config libssl-dev libclang-dev build-essential git curl ntp jq llvm tmux htop screen gcc lz4 -y < "/dev/null"
 ```
 
 ## Go Kurulumu
