@@ -45,7 +45,7 @@ go version
 ## Değişkenleri Yükleme
 aşağıda değiştirmeniz gereken yerleri yazıyorum.
 * `$NIB_NODENAME` validator adınız
-* `$HUMAN_WALLET` cüzdan adınız
+* `$NIB_WALLET` cüzdan adınız
 *  Eğer portu başka bir node kullanıyorsa aşağıdan değiştirebilirsiniz.
 ```shell
 echo "export NIB_NODENAME=$NIB_NODENAME"  >> $HOME/.bash_profile
