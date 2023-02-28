@@ -325,7 +325,7 @@ nibid query bank balances $NIB_WALLET_ADDRESS
 ### Bir Cüzdandan Diğer Bir Cüzdana Transfer Yapma
 
 ```
-nibid tx bank send $NIB_WALLET_ADDRESS GONDERILECEK_CUZDAN_ADRESI 100000000uheart
+nibid tx bank send $NIB_WALLET_ADDRESS GONDERILECEK_CUZDAN_ADRESI 100000000unibi
 ```
 
 ### Proposal Oylamasına Katılma
