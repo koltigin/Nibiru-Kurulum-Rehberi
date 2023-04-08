@@ -7,7 +7,7 @@
  ✔️ [Website](https://nibiru.fi/)<br>
  ✔️ [Blockchain Explorer](https://nibiru.explorers.guru/)<br>
  ✔️ [Doküman](https://nibiru.fi/docs/run-nodes/testnet/)<br>
- ✔️ [Discord](https://discord.gg/nibiru)<br>
+ ✔️ [Discord](https://discord.gg/pVBQs67Rfa)<br>
  ✔️ [Testnet Detayları](https://nibiru.fi/blog/posts/007-itn-1.html)<br>
  
 ## [Görevler](https://github.com/koltigin/Nibiru-Kurulum-Rehberi/blob/main/G%C3%B6revler.md)
