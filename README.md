@@ -480,7 +480,7 @@ nibid tx slashing unjail \
   --broadcast-mode=block \
   --from=$NIB_WALLET \
   --chain-id=$NIB_CHAIN_ID \
-  --gas=auto
+  --gas=auto \
   --gas-adjustment=1.4
 ```
 
